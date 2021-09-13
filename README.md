@@ -1,7 +1,7 @@
 # AlternateBOM
 Software Bill Of Material (bom.xml) generated using CycloneDx is given as input to [Steve Springett's DependencyTrack](https://dependencytrack.org/). 
 
-Creating BOM files from CycloneDx is not always possible because Developers from Organisations dont necessarily use npm for installing third party JS libraries. To create BOM file for npm package using CycloneDx, package.json is required. Here we will not require this file , However dependency-check JSON report is must.
+Creating BOM files from CycloneDx is not always possible because Developers from Organisations dont necessarily use npm for installing third party JS libraries. To create BOM file of npm package using CycloneDx, package.json is required. Here we will not require this file , However dependency-check JSON report is must.
 
 **This Project is completely dependent on Dependency-Check JSON report.**
 AlternateBOM will create a BOM file from [dependency-check](https://owasp.org/www-project-dependency-check/) json report of Third Party JS files.
@@ -19,7 +19,7 @@ Load the pretty json file into alternatebom.py
 
 A bom.xml file will be generated which can be uploaded to DependencyTrack .
 
-How to import bom into Dependency Track [Video 1](https://www.youtube.com/watch?v=nZakPU0wJMo) [Video 2](https://www.youtube.com/watch?v=FWOCX7wEAzI)
+### How to import bom into Dependency Track [Video 1](https://www.youtube.com/watch?v=nZakPU0wJMo) [Video 2](https://www.youtube.com/watch?v=FWOCX7wEAzI)
 
 
 
