@@ -17,5 +17,9 @@ Load the pretty json file into alternatebom.py
 
 `python alternatebom.py path/to/pretty/dependency-check-report.json`
 
+A bom.xml file will be generated which can be uploaded to DependencyTrack .
+
+How to import bom into Dependency Track [Video 1](https://www.youtube.com/watch?v=nZakPU0wJMo) [Video 2](https://www.youtube.com/watch?v=FWOCX7wEAzI)
+
 
 
